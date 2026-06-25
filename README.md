@@ -3,30 +3,29 @@
 A simple analog clock extension for GNOME Shell, displayed on the top panel.
 
 ## Installation
-1. Create the extension directory:
+
+1. Download the repo:
+```bash
+git clone https://github.com/moshe-stein24/gnome-nice-clock/
+```
+
+2. Create the extension directory:
 ```bash
 mkdir ~/.local/share/gnome-shell/extensions/analog-clock@$(whoami)
 ```
 
-
-2. Go to the directory you just created:
-```
-cd ~/.local/share/gnome-shell/extensions/analog-clock@$(whoami)
-```
-
-
-3. Download the files:
-```
-git clone https://github.com/moshe-stein24/gnome-nice-clock/
+3. Copy necessary files:
+```bash
+cp extension.js stylesheet.css metadata.json ~/.local/share/gnome-shell/extensions/analog-clock@$(whoami)
 ```
 
 4. Restart GNOME Shell: 
+
 Press alt + F2 and type: 'restart' -> press enter
-```
 
 
 5. Enable the extension:
-```
+```bash
 gnome-extensions enable analog-clock@$(whoami)
 ```
 
