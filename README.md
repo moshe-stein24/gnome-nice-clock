@@ -17,6 +17,9 @@ mkdir ~/.local/share/gnome-shell/extensions/analog-clock@$(whoami)
 3. Copy necessary files:
 ```bash
 cd gnome-nice-clock/
+```
+
+```bash
 cp extension.js stylesheet.css metadata.json ~/.local/share/gnome-shell/extensions/analog-clock@$(whoami)
 ```
 
