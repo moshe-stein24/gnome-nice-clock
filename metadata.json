@@ -1,0 +1,8 @@
+{
+  "name": "Nice Clock",
+  "description": "A simple analog clock on the top panel next to the date",
+  "uuid": "nice-clock@moshestein",
+  "shell-version": ["40", "41", "42", "43", "44", "45", "46"],
+  "version": 1,
+  "url": "https://github.com/sharat87/gnome-shell-analog-clock"
+}
